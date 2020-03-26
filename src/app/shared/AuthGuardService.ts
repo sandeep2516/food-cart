@@ -5,10 +5,10 @@ import { Router, CanActivate } from '@angular/router';
 export class AuthGuardService implements CanActivate {
     constructor(public router: Router) { }
     canActivate(): boolean {
-        if (localStorage.getItem('userToken') === '' || localStorage.getItem('userToken') === null) {
-            this.router.navigate(['/login']);
-            return false;
-        }
+        // if (localStorage.getItem('userToken') === '' || localStorage.getItem('userToken') === null) {
+        //     this.router.navigate(['/login']);
+        //     return false;
+        // }
         return true;
     }
 }

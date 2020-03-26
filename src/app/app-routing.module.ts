@@ -17,7 +17,7 @@ import { DeliveryBoyListComponent } from './delivery-boy/delivery-boy-list/deliv
 import { AddDeliveryBoyComponent } from './delivery-boy/add-delivery-boy/add-delivery-boy.component';
 import { ReportsComponent } from './reports/reports.component';
 import { LoginComponent } from './login/login.component';
-import {AuthGuardService } from './Shared/AuthGuardService';
+import {AuthGuardService } from './shared/AuthGuardService';
 
 
 
